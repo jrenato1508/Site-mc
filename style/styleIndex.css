@@ -33,6 +33,7 @@ header img{
 nav{
     background-image:linear-gradient(to right,var(--cor00), var(--cornv05));
     margin-bottom: 10px;
+    padding-right: 20px;
 }
 nav > a{
     text-decoration: none;
