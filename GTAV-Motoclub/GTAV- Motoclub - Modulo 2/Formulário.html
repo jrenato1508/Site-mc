@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/styleFormulario.css">
+    <title>Formulário de inscrição</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Inscrição</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="prospect.html">Área do prospect</a>
+        <a href="Estatuto.html">Estatuto</a>
+        <a href="#">História</a>
+        <a href="#">Contato</a>    
+    </nav>  
+    <main>
+        <div class="Sons">
+            <h2>Prencha o formulários para entramos em contato</h2>
+        </div>
+        <div class="atencao">
+            <p><Strong>ATENÇÃO</Strong>: O preenchimento deste formulário não garante a inscrição, serve apenas para um primeiro contato com o Clube, possibilitando que um membro possa contatar o interessado.</p>
+        </div>
+
+        <form>
+            <div>
+                <label> Nome</label>
+                <input type="text" id="textnome">
+            </div>
+            <div>
+                <label>Login PSN</label>
+                <input type="text" id="txtLogin">
+            </div>
+            <div>
+                <Label>Numero do WhatsApp</Label>
+                <input type="text" id="txtNumero">
+            </div>
+            <div>
+                <label for="">Possui PSN ativa?</label><br>               
+                <input type="radio" id="sim" name="chekpsn" checked>
+                <label for="cksim">SIM</label>
+                <input type="radio" id="nao" name="chekpsn">
+                <label for="cknao">NÃO</label>
+                
+            </div>
+            <div>
+                <input type="button" value="Enviar"  onclick="enviar">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>
+            Copyright &copy; 2023 <a href="https://www.instagram.com/jose.renato/" target="_blank">José Renato</a>. Todos os direitos reservados
+        </p>
+        <p>
+            Tecnologia Sons of Anarchy's M.C.V.- 2023 
+        </p>
+    </footer>
+</body>
+</html>

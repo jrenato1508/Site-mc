@@ -1,0 +1,1 @@
+window.alert('Esse Estatudo precisa ser atualizado')
